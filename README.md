@@ -6,7 +6,5 @@ The repository includes the Jupyter notebooks necessary to run the computational
 pipeline of the paper. A sample workflow within each file is provided.
 
 The suggested order of notebooks highlighted by the workflow for raw images is:
-preprocess.ipynb
-segment_anything.ipynb
-rust_analysis_workflow.ipynb
-AUDPC.ipynb
+
+[Preprocessing](preprocess.ipynb) --> [Segmentation](segment_anything.ipynb) --> [Colour and Quantitative Analysis](rust_analysis_workflow.ipynb) --> [AUDPC](AUDPC.ipynb) 
